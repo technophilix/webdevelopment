@@ -1,0 +1,1 @@
+Step 3: Copy the  path of .ssh folder and paste it to git bash. then add your file name with a slash, ie “C:\Users\Agniswar\.ssh\technogit”. Then hit enter, It will ask for paraphrase (like password) give it or leave blank. Two file will generate. technogit and technogit.pub. 

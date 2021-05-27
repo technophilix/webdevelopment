@@ -12,6 +12,6 @@ IdentityFile ~/.ssh/technogit
 
 Now, to interact with github
 
-1. Open git in your project and initialize git in your project root folder with <pre>git init</pre> command
+1. Open git in your project and initialize git in your project root folder with <pre><code>git init </code></pre> command.
 2. Create a public repository at github. No need to add readme, gitignore or lisence file.
 3.

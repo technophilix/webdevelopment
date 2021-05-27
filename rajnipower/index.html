@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajni Power</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+   <div id="root">Disconnect the internet, It will run with rajni power...</div> 
+</body>
+<script type="text/javascript">
+    window.addEventListener("online", function(){
+
+       document.getElementById("root").innerHTML = 'Disconnect the internet, It will run with rajni power...' 
+    })
+
+    window.addEventListener("offline", function(){
+
+document.getElementById("root").innerHTML = 'Yanna raskela mind it...' 
+})
+    </script>
+</html>
